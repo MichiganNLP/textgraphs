@@ -1,0 +1,330 @@
+16 x 16
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>ACL 2010 Workshop: TextGraphs-5: Graph-based Methods for Natural Language Processing</title>
+<meta content="en-us" http-equiv="content-language">
+<meta content="text/html;charset=utf-8" http-equiv="content-type">
+<link href="master.css" media="screen,projection" type="text/css" rel="stylesheet">
+</link>
+<link href="#" title="SimplyGold" rel="start">
+<style type="text/css">
+</style>
+</head>
+<body>
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #2E333B;
+    color: #999999;
+    font: 76% "Trebuchet MS","Lucida Grande",Verdana,Sans-Serif;
+}
+a {
+    border-bottom: 1px dotted #333333;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:link {
+    border-bottom-color: #1F67B1;
+    color: #1F67B1;
+}
+a:visited {
+    border-bottom-color: #333333;
+    color: #333333;
+}
+a:hover, a:active {
+    border-bottom-color: #AD0004;
+    border-bottom-style: solid;
+    color: #AD0004;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    line-height: 1.2em;
+}
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 24px;
+    color: #580000;
+}
+h4, h5, h6 {
+    font-size: 20px;
+}
+
+h7 {
+    font-size: 22px;
+    color: #580000;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    border-bottom-width: 0;
+    font-weight: normal;
+}
+ul, ol {
+    line-height: 1.8em;
+    margin: 1em 0;
+}
+ol li {
+    margin-left: 2.5em;
+}
+ul {
+    list-style-type: square;
+    padding-left: 2em;
+}
+.drop-shadow {
+    background: url("images/drop_shadow.png") no-repeat scroll right bottom transparent !important;
+    float: left;
+    margin: 10px 3px 0 10px !important;
+    position: relative;
+}
+.drop-shadow img {
+    background-color: #FFFFFF;
+    border: 1px solid #A9A9A9;
+    display: block;
+    margin: -6px 6px 6px -6px;
+    padding: 4px;
+    position: relative;
+}
+.drop-shadow p {
+    background-color: #2E333B;
+    border-top: 1px solid #111111;
+    bottom: 0;
+    color: #F7F7F7;
+    padding: 5px 10px;
+    position: absolute;
+    right: 11px;
+}
+blockquote {
+    background: url("images/right_quotes.png") no-repeat scroll 95% 85% #F7F7F7;
+    border: 1px solid #A9A9A9;
+    clear: both;
+    font-size: 0.9em;
+    line-height: 1.7em;
+    margin: 2em 3em;
+    padding: 1em;
+}
+code {
+    font-family: Consolas,Monaco,Verdana,"Courier New";
+    font-size: 0.93em;
+}
+abbr, acronym, cite {
+    border-bottom: 1px dotted #333333;
+    cursor: help;
+}
+ins, del {
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 18px;
+}
+ins {
+    background-image: url("images/add.gif");
+    font-weight: bold;
+    text-decoration: none;
+}
+del {
+    background-image: url("images/delete.gif");
+}
+body {
+    background-color: #C6C6C6;
+    color: #333333;
+    margin: 0 auto;
+    width: 850px;
+}
+#header {
+    background-color: #4F555D;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+#wrapper {
+    background: url("images/wrapper_bg_lite.png") repeat-y scroll left top #E2E2E2;
+    clear: both;
+    float: left;
+    line-height: 1.6em;
+    width: 100%;
+}
+#content {
+    float: left;
+    overflow: hidden;
+    width: 650px;
+}
+#sidebar {
+    background-color: #EDEDED;
+    float: left;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 200px;
+}
+#sidenotes {
+    background-color: #F7F7F7;
+    float: right;
+    margin: 0 0 0 5px;
+    overflow: hidden;
+    padding: 10px 0 0;
+    width: 200px;
+}
+#footer {
+    background-color: #4F555D;
+    clear: both;
+    color: #999999;
+    float: left;
+    width: 100%;
+}
+#header h1 {
+    background: url("images/logo.gif") no-repeat scroll left center transparent;
+    color: #FFFFFF;
+    float: left;
+    font-size: 1.6em;
+    margin: 0 15px;
+    padding: 15px 0;
+    width: 30%;
+}
+#header ul {
+    float: right;
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 0;
+}
+#header li {
+    float: left;
+}
+#header a {
+    border-bottom-width: 0;
+    color: #EDEDED;
+    display: block;
+    float: left;
+    padding: 10px 8px 0;
+}
+#header a:hover {
+    color: #FFFFFF;
+}
+#header li.active a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.post {
+    padding: 10px 20px;
+}
+h2.post-title {
+    margin-bottom: 15px;
+}
+.post-content p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+p.post-footer {
+    background-color: #DADADA;
+    color: #DADADA;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    padding: 5px 10px;
+}
+p.post-footer strong {
+    color: #333333;
+    padding-right: 10px;
+}
+p.post-footer em {
+    border-right: 1px solid #A9A9A9;
+    font-style: normal;
+    padding-right: 10px;
+}
+p.post-footer a {
+    border-bottom-width: 0;
+}
+a.more {
+    border-bottom-width: 0;
+}
+#sidebar h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0 10px;
+}
+#sidebar ul {
+    line-height: 2em;
+    padding-left: 35px;
+}
+#sidebar li {
+    list-style-image: url("images/pushpin.gif");
+}
+#sidenotes h3 {
+    padding: 0 10px;
+}
+#sidenotes ul {
+    list-style-type: none;
+    margin: 10px 0 0;
+    padding: 0;
+}
+#sidenotes a {
+    border-bottom: 1px solid #A9A9A9;
+    border-top: 1px solid #A9A9A9;
+    color: #333333;
+    display: block;
+    font-weight: normal;
+    margin-top: -1px;
+    padding: 5px 10px;
+}
+#sidenotes a:hover {
+    background-color: #F9F9F9;
+}
+#sidenotes a strong {
+    display: block;
+}
+#sidenotes a em {
+    display: block;
+}
+#footer .block {
+    float: left;
+    padding: 10px 0;
+    width: 210px;
+}
+#footer .block h3 {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    padding: 0 10px 5px 13px;
+    text-transform: uppercase;
+}
+#footer .block ul {
+    list-style-type: none;
+    padding: 0 10px 20px;
+}
+#footer .block ul a {
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #777777;
+    display: block;
+    margin-top: -1px;
+    padding: 5px 10px;
+}
+#footer .block ul a:hover, #footer .block ul a:active {
+    background-color: #2E333B;
+}
+#footer p {
+    padding: 0 15px;
+}
+#footer .block p {
+    margin: 15px 0;
+}
+#footer a {
+    border-bottom-color: #666666;
+    color: #999999;
+}
+#footer a:hover, #footer a:active {
+    border-bottom-color: #999999;
+    color: #C5C5C5;
+}
+#footer p.copyright {
+    background-color: #3F444C;
+    clear: both;
+    padding: 10px 15px;
+}
+.bottomline {
+    border-bottom-style: dotted;
+    border-bottom-width: thin;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="en-us" http-equiv="content-language">
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+
+<title>TextGraphs-7</title>
+<link href="css/master.css" media="screen,projection" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+		
+		
+		<table>
+		<tr>
+		<td align="middle" id="logo">
+		
+		</td>
+		<td  id="header">
+		<h1>TextGraphs-7<br>Graph-based Methods for Natural Language Processing</h1>
+<h4>Workshop at <a href="http://www.acl2012.org/">ACL 2012</a>, Jeju, Republic of Korea, July 12 2012</h4>		
+		
+		
+		</td>
+		</tr>
+<tr>
+
+	
+
+	<div id="wrapper">
+		
+		
+
+
+	<td width="30%" id="sidebar" valign="top">
+
+		<div id="sidebar">
+
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="submission_dates.html">Important dates</a><br><span class="insert">Submission deadline March 18, 2012</span></li>
+				<li><a href="submission_instructions.html">Submission instructions</a></li>
+				<li><a href="special_theme.html">Special theme for TextGraphs-7</a></li>
+				<li><a href="invited_speaker.html">Invited Speaker</a></li>
+				<li><a href="accepted_papers.html">Accepted papers</a></li>
+				<li><a href="schedule.html">Workshop schedule</a></li>
+				<li><a href="program_committee.html">Program committee</a></li>
+				<li><a href="organizers.html">Organizers</a></li>
+			</ul>
+
+ </div>
+	</td>
+
+		<td width="75%">
+
+
+
+	<div id="content">
+		
+			<div class="post">
+				
+			<div class="postcontent">
+						
+			<h3>Workshop News</h3>November 22, 2012 - 1st Call for papers
+					
+				<h3>About TextGraphs</h3>
+				TextGraphs is in its seventh edition! This shows that the disciplines graph theoretic models and computational linguistics, are naturally connected, with a large variety of Natural Language Processing (NLP) applications adopting efficient and elegant solutions from graph-theoretical framework.
+<br>
+			
+The TextGraphs workshops series brings together researchers interested in Graph Theory applied to Natural Language Processing and provides an environment for further integration of graph-based solutions into NLP tasks. The workshops encourage discussions about theoretical justifications from Graph Theory that explain empirical results obtained in the NLP community. As a consequence, a deeper understanding of new theories of graph-based algorithms is likely to help to create new approaches and widen the usage of graphs for NLP applications.
+
+			<h3>Suggested topics</h3>
+			We invite submissions on the following (but not limited to) general topics:
+			<ul>
+				<li> Graph-based methods for Information Retrieval, Information Extraction and Text Mining
+					<ul>
+						<li>Graph-based methods for word sense disambiguation,
+						</li>
+						<li>Graph-based representations for ontology learning,
+						</li>
+						<li>Graph-based strategies for semantic relations identification,
+						</li>
+						<li>Encoding semantic distances in graphs,
+						</li>
+						<li>Graph-based techniques for document navigation and visualization, etc;
+						</li>
+
+					</ul>
+				</li>
+				<li>New graph-based methods for NLP applications
+					<ul>
+						<li>Random walk methods in graphs,
+						</li>
+						<li>Spectral graph clustering,
+						</li>
+						<li>Graph-based strategies for semantic relations identification,
+						</li>
+						<li>Semi-supervised graph-based methods,
+						</li>
+						<li>Methods and analyses for statistical networks,
+						</li>
+						<li>Small world graphs,
+						</li>
+						<li>Dynamic graph representations,
+						</li>
+						<li>Topological and pretopological analysis of graphs, etc;
+						</li>
+
+					</ul>
+
+				</li>
+				<li> Graph-based methods for applications on social networks
+					<ul>
+						<li>Rumor proliferation, 
+						</li>
+						<li>E-reputation,
+						</li>
+						<li>Multiple identity detection, 
+						</li>
+						<li>Language dynamics studies,
+						</li>
+						<li>Surveillance systems, etc.
+						</li>
+
+					</ul>
+
+				</li>
+			</ul>
+
+
+</td>
+	</tr>
+	</table>
+	</div>
+</body>
+</html>
